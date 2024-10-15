@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frame by Frame Studios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://yourvideoimageurl.com') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: white;
+    }
+    .services .card {
+      margin: 20px 0;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NINESTAR Studios</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-work">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex justify-content-center align-items-center" id="home">
+    <div class="text-center">
+      <h1>NINESTAR Studios</h1>
+      <img src="https://macksennettstudios.net/wp-content/uploads/2022/02/Contact-Mack-Sennett-Studios-for-sound-stages-and-more.jpg" >
+      <p>Bringing Your Stories to Life</p>
+      <a href="#our-work" class="btn btn-primary">View Our Work</a>
+    </div>
+  </section>
+
+  <!-- Our Work Section -->
+  <section id="our-work" class="container py-5">
+    <h2 class="text-center mb-5">Our Work</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
+        </div>
+        <p class="text-center mt-2">Project 1</p>
+      </div>
+      <div class="col-md-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
+        </div>
+        <p class="text-center mt-2">Project 2</p>
+      </div>
+      <div class="col-md-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
+        </div>
+        <p class="text-center mt-2">Project 3</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Services</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cinematic Films</h5>
+              <p class="card-text">We create breathtaking cinematic experiences for feature films and short films.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Music Videos</h5>
+              <p class="card-text">We help artists bring their music to life with stunning visuals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Commercials</h5>
+              <p class="card-text">We produce high-quality commercials to boost your brand's visibility.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">About Us</h2>
+      <p>NINESTAR Studios is a full-service video production company. We are passionate about telling stories through stunning visuals and creative direction. Whether it's a feature film, commercial, or music video, our team of experienced professionals is here to help you bring your vision to life.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2024 NINESTAR Studios | All Rights Reserved</p>
+      <div class="d-flex justify-content-center">
+        <a href="#" class="mx-2 text-light">Facebook</a>
+        <a href="#" class="mx-2 text-light">Instagram</a>
+        <a href="#" class="mx-2 text-light">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
